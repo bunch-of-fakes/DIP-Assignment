@@ -1,0 +1,18 @@
+[project]
+name = "digital-image-processing"
+version = "0.1.0"
+description = "Digital Image Processing coursework notebooks"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "scikit-image",
+    "opencv-python",
+    "pillow",
+    "jupyter",
+    "jupyterlab",
+    "ipykernel",
+]
+
+[tool.jupyter]
